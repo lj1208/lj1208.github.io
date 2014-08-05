@@ -1,0 +1,15 @@
+# jekyll使用ror开发的，先要搭建ror环境
+```
+curl -L https://get.rvm.io | bash -s stable
+rvm install 2.1.2
+gem sources --remove https://rubygems.org/
+gem sources -a https://ruby.taobao.org/
+```
+# 安装jekyll，默认安装没有javascript runtime要手添加
+```
+gem install jekyll -V
+gem install execjs -V
+gem install therubyracer -V
+```
+# 按照https://pages.github.com/推送到github
+# 访问github page，lj1208.github.io
