@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "第一滴血"
+date:   2014-08-05 22:50:25
+categories: jekyll update
+---
+
+
 ### jekyll使用ror开发的，先要搭建ror环境
 ```
 curl -L https://get.rvm.io | bash -s stable
@@ -10,6 +18,10 @@ gem sources -a https://ruby.taobao.org/
 gem install jekyll -V
 gem install execjs -V
 gem install therubyracer -V
+```
+### 创建项目
+```
+jekyll new lj1208.github.io
 ```
 ### 按照[github pages](https://pages.github.com/)上的步骤，推送代码到github
 ### 访问[主页](http://lj1208.github.io)
