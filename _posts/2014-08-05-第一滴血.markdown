@@ -10,8 +10,11 @@ categories: jekyll update
 
 ```
 curl -L https://get.rvm.io | bash -s stable
+
 rvm install 2.1.2
+
 gem sources --remove https://rubygems.org/
+
 gem sources -a https://ruby.taobao.org/
 ```
 
@@ -19,7 +22,9 @@ gem sources -a https://ruby.taobao.org/
 
 ```
 gem install jekyll -V
+
 gem install execjs -V
+
 gem install therubyracer -V
 ```
 
