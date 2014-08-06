@@ -1,12 +1,12 @@
 # Site settings
-title: Your awesome title
+title: LiuJie's Blog
 email: lj1208@gmail.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+description: "lj1208's blog"
 baseurl: ""
-url: "http://yourdomain.com"
-twitter_username: xxxxredcarpet
+url: "http://lj1208.github.io"
+twitter_username: lj1208
 github_username:  lj1208
 
 # Build settings
-markdown: redcarpet-pygments
+markdown: kramdown
 permalink: pretty
