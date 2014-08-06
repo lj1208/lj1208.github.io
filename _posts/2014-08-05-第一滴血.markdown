@@ -5,25 +5,25 @@ date:   2014-08-05 22:50:25
 categories: jekyll update
 ---
 
-* jekyll使用ror开发的，先要搭建ror环境
-<pre>
+jekyll使用ror开发的，先要搭建ror环境
+
     curl -L https://get.rvm.io | bash -s stable
     rvm install 2.1.2
     gem sources --remove https://rubygems.org/
     gem sources -a https://ruby.taobao.org/
-</pre>
 
-* 安装jekyll，默认安装没有javascript runtime要手动添加
-<pre>
+
+安装jekyll，默认安装没有javascript runtime要手动添加
+
     gem install jekyll -V
     gem install execjs -V
     gem install therubyracer -V
-</pre>
 
-* 创建项目
-<pre>
+
+创建项目
+
     jekyll new lj1208.github.io
-</pre>
 
-* 按照[github pages](https://pages.github.com/)上的步骤，推送代码到github
-* 访问[主页](http://lj1208.github.io)
+
+按照[github pages](https://pages.github.com/)上的步骤，推送代码到github
+访问[主页](http://lj1208.github.io)
