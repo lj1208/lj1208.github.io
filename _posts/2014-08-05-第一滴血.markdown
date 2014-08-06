@@ -6,12 +6,12 @@ categories: jekyll update
 ---
 
 * jekyll使用ror开发的，先要搭建ror环境
-<pre>
+~~~
 curl -L https://get.rvm.io | bash -s stable
 rvm install 2.1.2
 gem sources --remove https://rubygems.org/
 gem sources -a https://ruby.taobao.org/
-</pre>
+~~~
 
 * 安装jekyll，默认安装没有javascript runtime要手动添加
 <pre>
