@@ -26,4 +26,10 @@ jekyll使用ror开发的，先要搭建ror环境
 
 
 按照[github pages](https://pages.github.com/)上的步骤，推送代码到github
+
+修改main.css调整code block的风格
+
+    .highlight  { background: #ffffff; border: solid 0px #d9d9d9; border-radius: 0 }
+    .code { background-color: #f7f7f7; }
+
 访问[主页](http://lj1208.github.io)
