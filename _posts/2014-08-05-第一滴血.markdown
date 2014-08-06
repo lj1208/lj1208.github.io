@@ -14,11 +14,11 @@ gem sources -a https://ruby.taobao.org/
 ~~~
 
 * 安装jekyll，默认安装没有javascript runtime要手动添加
-<pre>
+```
 gem install jekyll -V
 gem install execjs -V
 gem install therubyracer -V
-</pre>
+```
 * 创建项目
 <pre>
 jekyll new lj1208.github.io
