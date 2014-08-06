@@ -8,5 +8,5 @@ twitter_username: jekyllrb
 github_username:  lj1208
 
 # Build settings
-markdown: redcarpet
+markdown: kramdown
 permalink: pretty
