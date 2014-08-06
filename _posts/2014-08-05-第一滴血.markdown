@@ -5,7 +5,7 @@ date:   2014-08-05 22:50:25
 categories: jekyll update
 ---
 
-jekyll使用ror开发的，先要搭建ror环境
+首先jekyll使用ror开发的，搭建ror环境
 
     curl -L https://get.rvm.io | bash -s stable
     rvm install 2.1.2
@@ -13,23 +13,23 @@ jekyll使用ror开发的，先要搭建ror环境
     gem sources -a https://ruby.taobao.org/
 
 
-安装jekyll，默认安装没有javascript runtime要手动添加
+然后安装jekyll，默认安装没有javascript runtime要手动添加
 
     gem install jekyll -V
     gem install execjs -V
     gem install therubyracer -V
 
 
-创建项目
+接着创建项目
 
     jekyll new lj1208.github.io
 
 
 按照[github pages](https://pages.github.com/)上的步骤，推送代码到github
 
-修改main.css调整code block的风格
+然后修改主题，可以在[jekyll theme](http://jekyllthemes.org/)或者[bootstrap theme](http://themes.jekyllbootstrap.com/)找一个喜欢的。不想折腾就直接用默认的，稍微调整下code block的风格，修改main.css
 
     .highlight  { background: #ffffff; border: solid 0px #d9d9d9; border-radius: 0 }
     .code { background-color: #f7f7f7; }
 
-访问[主页](http://lj1208.github.io)
+到这里就可以访问[主页](http://lj1208.github.io)了:)
